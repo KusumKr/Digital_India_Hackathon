@@ -185,7 +185,7 @@ export default function Team() {
             whileHover={{ borderRadius: "0%", transition: { duration: 0.5, ease: "easeInOut" } }}
           >
             <motion.img
-              src="/Kusum image new.jpg"
+              src="/kusum image new.jpg"
               alt="Kusum Kharayat"
               className="absolute inset-0 w-full h-full object-cover object-top"
               initial={{ scale: 1 }}
