@@ -121,34 +121,6 @@ export default function Team() {
           <h2 className="text-lg font-semibold text-center">Adarsh Gautam</h2>
           <p className="text-gray-500 text-center">Founder @Shardz</p>
         </div>
-        {/* Profile - Col. Prem Rajpurohit */}
-        <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
-          <motion.div
-            className="relative w-52 h-52 md:w-72 md:h-72 mb-4 overflow-hidden"
-            initial={{ borderRadius: "0 30% 0 30%" }}
-            whileHover={{ borderRadius: "0%", transition: { duration: 0.5, ease: "easeInOut" } }}
-          >
-            <motion.img
-              src="/prem.png"
-              alt="Col. Prem Rajpurohit"
-              className="absolute inset-0 w-full h-full object-cover object-top"
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.1, transition: { duration: 1.5, ease: "easeInOut" } }}
-            />
-            <a href="https://www.linkedin.com/in/col-prem-rajpurohit-pmp-lssbb-mba-b04585192/" target="_blank" rel="noopener noreferrer">
-              <motion.div className="absolute inset-0 flex items-center justify-center bg-[#007F40] opacity-0 group-hover:opacity-80 transition-opacity duration-500 ease-in-out">
-                <span className="text-white text-sm text-center hidden group-hover:block">
-                Col. Prem Rajpurohit is the CEO of Nebula Accelerator, leveraging his extensive experience to foster innovation.
-                </span>
-              </motion.div>
-              <motion.div className="absolute bottom-0 right-0 bg-[#007F40] p-2 rounded-tr-2xl rounded-bl-2xl group-hover:scale-0 transition-all duration-500 ease-in-out">
-                <FaLinkedin className="w-6 h-6 text-white" />
-              </motion.div>
-            </a>
-          </motion.div>
-          <h2 className="text-lg font-semibold text-center">Col. Prem Rajpurohit</h2>
-          <p className="text-gray-500 text-center">Founder @GSL</p>
-        </div>
         {/* Profile - Sanchit Kathpalia */}
         <div className="group rounded-lg p-6 flex flex-col justify-around items-center relative">
           <motion.div

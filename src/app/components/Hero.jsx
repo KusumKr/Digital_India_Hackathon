@@ -112,7 +112,7 @@ function Hero() {
           className="text-white mb-5  md:mb-14 text-lg md:text-2xl text-center max-w-5xl mx-auto"
           variants={fadeInUpVariants}
         >
-          We are hosting a Hybrid Web- Mobile- Digital Media DAPP Hack-a-thon at Hauz Khas Social designed for Blockchain (Web3)/ AI/ ML, SaaS entrepreneurs and Legal domain professionals focused in Defence, DeepTech, and Women-led enterprises.
+          We are hosting a Hybrid Web- Mobile- Digital Media DAPP Hack-a-thon in Delhi NCR(TBC) designed for Blockchain (Web3)/ AI/ ML, SaaS entrepreneurs and Legal domain professionals focused in Defence, DeepTech, and Women-led enterprises.
         </motion.p>
         <motion.div
           className=" flex flex-col md:flex-row mb-5 space-y-4 md:space-y-0 space-x-4 items-center justify-center"
